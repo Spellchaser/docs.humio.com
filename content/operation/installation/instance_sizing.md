@@ -46,7 +46,7 @@ EBS storage. But it will work.
 - You need to be able to hold 48hrs of compressed data in 80% of you RAM.
 - You want enough hyper threads/vCPUs (each giving you 1GB/s search) to be able
   to seach 24hrs of data in less than 10 seconds.
-- You need disk space to hold your compressed data. NEver fill your disk more than 80%.
+- You need disk space to hold your compressed data. Never fill your disk more than 80%.
 
 > Example: your machine has 64G of ram, and 8 hyper threads (4 cores), 1TB of storage.
   Your machine can hold 307GB of ingest data compressed, and process 8GB/s.  In this case
